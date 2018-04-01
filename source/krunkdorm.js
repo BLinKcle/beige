@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Roadshow")
+  .setTitle("Krunk Dorm")
   .setColor(3447003)
-  .setDescription("FAQ's about the Roadshow")
+  .setDescription("FAQ's about the Krunk Dorm")
   .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
-  .setThumbnail("https://scontent.fmnl8-1.fna.fbcdn.net/v/t31.0-8/26026034_1522883871166653_8465753327397913296_o.jpg?_nc_cat=0&oh=4e51760c002ebab13c10e19780ad0d6e&oe=5B36932D")
+  .setThumbnail("https://i.imgur.com/9PgTV6I.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
