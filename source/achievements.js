@@ -2,11 +2,11 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Roadshow")
+  .setTitle("Achievements")
   .setColor(3447003)
-  .setDescription("FAQ's about the Roadshow")
+  .setDescription("FAQ's about Achievements")
   .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
-  .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
+  .setThumbnail("https://i.imgur.com/i5zGnOG.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
