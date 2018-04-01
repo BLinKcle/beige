@@ -4,7 +4,7 @@ var embed = new Discord.RichEmbed()
   .setTitle("Management")
   .setColor(3447003)
   .setDescription("FAQ's about Management (Evolution, Upgrade, Promotion, etc)")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
+  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/qCItN2L.png")
   .setTimestamp()
   
