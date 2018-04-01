@@ -6,7 +6,7 @@ var embed = new Discord.RichEmbed()
   .setTitle("Roadshow")
   .setColor(3447003)
   .setDescription("FAQ's about the Roadshow")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
+  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/qcn745p.png")
   .setTimestamp()
   
