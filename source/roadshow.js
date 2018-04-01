@@ -7,7 +7,7 @@ var embed = new Discord.RichEmbed()
   .setColor(3447003)
   .setDescription("FAQ's about the Roadshow")
   .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
-  .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
+  .setThumbnail("https://i.imgur.com/qcn745p.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
