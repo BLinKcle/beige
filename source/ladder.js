@@ -7,7 +7,7 @@ var embed = new Discord.RichEmbed()
   .setTitle("Ladder")
   .setColor(3447003)
   .setDescription("FAQ's about the Ladder")
-  .setFooter("Source:https://www.taptap.com/topic/2666165","https://i.imgur.com/TgNMUlS.jpg")
+  .setFooter("Source:https://www.taptap.com/topic/2666165","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
   .setTimestamp()
   .addField("Are there any requirements for ladder?",
