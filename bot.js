@@ -170,6 +170,8 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 	 message.channel.send("Thanks! Your tip will be added after the mods read it. ^^");
   	 client.users.get("398297283831136256").send("Category:  "+ (cat));
 	 client.users.get("398297283831136256").send(" Tip: " + (tip) +" by " + (  message.author.username  ));
+	client.channels.get("429946717937336321").send("Category:  "+ (cat));
+	 client.channels.get("429946717937336321").send(" Tip: " + (tip) +" by " + (  message.author.username  ));	
 		
 	
 	}
