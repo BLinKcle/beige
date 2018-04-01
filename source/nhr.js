@@ -5,7 +5,7 @@ var embed = new Discord.RichEmbed()
   .setColor(3447003)
   .setDescription("FAQ's about the NHR")
   .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
-  .setThumbnail("https://imgur.com/a/1VSFc")
+  .setThumbnail("https://i.imgur.com/cLVDpim.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
