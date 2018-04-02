@@ -168,10 +168,10 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 	if(!categ.some(word => message.content.includes(word))) 
  		return message.reply("Category should be one of these:" + (categ));	
 	 message.channel.send("Thanks! Your tip will be added after the mods read it. ^^");
-  	 client.users.get("398297283831136256").send("Category:  "+ (cat));
-	 client.users.get("398297283831136256").send(" Tip: " + (tip) +" by " + (  message.author.username  ));
-	client.channels.get("429946717937336321").send("Category:  "+ (cat));
-	 client.channels.get("429946717937336321").send(" Tip: " + (tip) +" by " + (  message.author.username  ));	
+  	 client.users.get(process.env.USER_NAME).send("Category:  "+ (cat));
+	 client.users.get(process.env.USER_NAME).send(" Tip: " + (tip) +" by " + (  message.author.username  ));
+	client.channels.get(process.env.TIPS_CHANNEL).send("Category:  "+ (cat));
+	 client.channels.get(process.env.TIPS_CHANNEL).send(" Tip: " + (tip) +" by " + (  message.author.username  ));	
 		
 	
 	}
