@@ -17,7 +17,7 @@ const krunkdorm = require("./source/krunkdorm.js");
 const shop = require("./source/shop.js");
 const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
-//const tips_songs = require("./source/tips_songs.js");
+const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
 const tips_schedule = require("./source/tips_schedules.js");
 const tips_event = require("./source/tips_event.js");
@@ -139,11 +139,11 @@ client.on('message', async message => {
 			//message.channel.send(tips);
 			message.channel.send(tips_ladder.embed);
           		 break;
-		/*case 'songs':
+		case 'songs':
 				message.channel.send(tips_songs.embed);
           	
 				break;
-				*/
+				
 		case 'achievements':
 			message.channel.send(tips_achievements.embed);
           		 break;	
