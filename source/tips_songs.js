@@ -23,9 +23,9 @@ var embed = new Discord.RichEmbed()
 
 //.addField("Combo checkpoints: 60, 120, 180, 360, 540, 720, 900, 1080, 1260, 1440, 1620, and so on. This can be a few notes off depending on how well you're playing. You may get that first checkpoint at 58 notes if you always get S-PERFECT.","by sekigan",true)
 
-//.addField("Watch out for songs such as Epik High - Spoiler and Bigbang - Loser (Live). Just when you thought the song is done, you will still need to wait for a few notes.","by sekigan",true)
+.addField("Watch out for songs such as Epik High - Spoiler and Bigbang - Loser (Live). Just when you thought the song is done, you will still need to wait for a few notes.","by sekigan",true)
 
-//.addField("There is a very thin yellow line at the very top of the screen that moves when playing the songs. You can look at it to know where you are in the song.", "by BLinKcle", true)
+.addField("There is a very thin yellow line at the very top of the screen that moves when playing the songs. You can look at it to know where you are in the song.", "by BLinKcle", true)
 
 ;
 module.exports = Object.freeze({
