@@ -16,7 +16,7 @@ var embed = new Discord.RichEmbed()
 .addField("Although, it isn't easy to control, but for missing a note or two in the beginning or (near) end of a song can still give S-rank, while missing only one note in the middle of the song usually gives A-rank.","by Locya",true)
 
 //Help me with this, I don't know how I can rephrase this. Or if I should really add this. ^^'
-//.addField("A card adds 20% of its total individual influence for each note hit (rounded down) while it is active (for 5 sec), regardless for accuracy. For example, a level 30 rank 4 artist Jisoo card with an influence of 4140 will give +828 points per note hit while active.","by sekigan",true)
+.addField("A card adds 20% of its total individual influence for each note hit (rounded down) while it is active (for 5 sec), regardless for accuracy.","by sekigan",true)
 
 
 .addField("The predicted requirement of getting S rank are not less than 85% combo or not more than 5% great or 2% good. For example, if a song full combo is 1000. You need to get min 850 combo, max. 50 great or 20 good.","Ricky_blink",true)
