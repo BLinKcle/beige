@@ -21,7 +21,7 @@ var embed = new Discord.RichEmbed()
 
 //.addField("The predicted requirement of getting S rank are not less than 85% combo or not more than 5% great or 2% good. For example, if a song full combo is 1000. You need to get min 850 combo, max. 50 great or 20 good.","Ricky_blink",true)
 
-.addField("Combo checkpoints: 60, 120, 180, 360, 540, 720, 900, 1080, 1260, 1440, 1620, and so on. This can be a few notes off depending on how well you're playing. You may get that first checkpoint at 58 notes if you always get S-PERFECT.","by sekigan",true)
+//.addField("Combo checkpoints: 60, 120, 180, 360, 540, 720, 900, 1080, 1260, 1440, 1620, and so on. This can be a few notes off depending on how well you're playing. You may get that first checkpoint at 58 notes if you always get S-PERFECT.","by sekigan",true)
 
 .addField("Watch out for songs such as Epik High - Spoiler and Bigbang - Loser (Live). Just when you thought the song is done, you will still need to wait for a few notes.","by sekigan",true)
 
