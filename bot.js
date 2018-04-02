@@ -14,7 +14,7 @@ const management = require("./source/management.js");
 const schedule = require("./source/schedule.js");
 const krunkdorm = require("./source/krunkdorm.js");
 const shop = require("./source/shop.js");
-
+const quest = require("./source/quest.js");
 
 
 var fs = require('fs');
@@ -81,7 +81,10 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 		   	 break; 
 		  case 'shop':    
 	   		message.channel.send(shop.embed);
-		   	 break; 		
+		   	 break; 
+		 case 'quest':    
+	   		message.channel.send(quest.embed);
+		   	 break; 
 			 
 			/ */
         }
