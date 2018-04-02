@@ -26,8 +26,8 @@ const tips_roadshow = require("./source/tips_roadshow.js");
 const tips_management = require("./source/tips_management.js");
 const tips_quest = require("./source/tips_quest.js");
 const tips_general = require("./source/tips_general.js");
-
-const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs"];
+const tips_ranking = require("./source/tips_ranking.js");
+const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs","ranking"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -169,6 +169,9 @@ client.on('message', async message => {
           		 break;	
 		case 'general':
 			message.channel.send(tips_general.embed);
+          		 break;
+		case 'ranking':
+			message.channel.send(tips_ranking.embed);
           		 break;
 			 
             // Just add any case commands if you want to..
