@@ -21,7 +21,8 @@ const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
 const tips_schedule = require("./source/tips_schedules.js");
 const tips_event = require("./source/tips_event.js");
-const categ = ["ladder", "songs","achievements","schedule","event"];
+const tips_nhr = require("./source/tips_nhr.js");
+const categ = ["ladder", "songs","achievements","schedule","event","nhr"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -144,9 +145,8 @@ client.on('message', async message => {
 		case 'event':
 			message.channel.send(tips_event.embed);
           		 break;	
-		case 'krunk-dorm':
-			var tips = fs.readFileSync("./source/tips_dorm.txt", {"encoding": "utf-8"});
-			message.channel.send(tips);
+		case 'nhr':
+			message.channel.send(tips_nhr.embed);
           		 break;	
 		case 'others':
 			var tips = fs.readFileSync("./source/tips_others.txt", {"encoding": "utf-8"});
