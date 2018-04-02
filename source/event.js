@@ -1,24 +1,25 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Events")
-  .setColor(3447003)
-  .setDescription("FAQ's about the Events")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
+  .setTitle("Management")
+  .setColor("97f7ff")
+  .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/gvid13v.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Q: How often are the songs updated?",
-    "A: Once every 48 hours.  It is worth mentioning that the songs will contain Platinum-only songs, so non-Platinum members get to experience them too.", true);
-/*
-    .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /*
-   * Blank field, useful to create some space..addBlankField(true)
-   */
+  .addField("In special rewards event, will I get 10 artist cards for the 680 diamond advanced contract folder?",
+    "Yes. Advanced Contract folder is the same as using 10 Advanced contract folder. In other words, you can choose still choose which artist you prefer.", true)
 
+
+  
+  
+  
+  
+  
+  ;
 
 module.exports = Object.freeze({
   embed: {embed}
