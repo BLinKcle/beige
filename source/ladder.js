@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setTitle("Ladder FAQ")
-  .setColor(3447003)
+  .setColor("fffb97")
   .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
 
 .addField("Q: How often are the songs updated?", "A: Once every 48 hours. Song list may contain Platinum-only songs.", true)
