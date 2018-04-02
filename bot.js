@@ -116,10 +116,10 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 	
 	if (command === "readtip") {
 		let cat = args[0];
-		  if(!cat)
+			  if(!cat)
    			   return message.reply("Choose first which tip you want to view :" + (categ));
 		if(!categ.some(word => message.content.includes(word))) 
- 			return message.reply("Category should be one of these:" + (categ));
+ 			return message.reply("That category does not have any tips yet ^^'.");
 		switch(cat) {
           	  // !ping
           	  case 'ladder':
