@@ -27,7 +27,7 @@ const tips_management = require("./source/tips_management.js");
 const tips_quest = require("./source/tips_quest.js");
 const tips_general = require("./source/tips_general.js");
 
-const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general"];
+const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs"];
 
 client.on('ready', () => {
     console.log('I am ready!');
