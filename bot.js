@@ -120,7 +120,7 @@ client.on('message', async message => {
 		let cat = args[0];
 			  if(!cat)
    			   return message.reply("Choose first which tip you want to view :" + (categ));
-		if(!categ.some(word => message.content.includes(word))) {
+		if(!categ.some(word => message.content.toLowerCase().includes(word))) {
  			 message.reply("That category does not have any tips yet ^^'.");
 			 message.channel.send("Current Categories: " + (categ));
 		}
