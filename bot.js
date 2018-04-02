@@ -16,7 +16,7 @@ const krunkdorm = require("./source/krunkdorm.js");
 const shop = require("./source/shop.js");
 const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
-
+const tips_songs = require("./source/tips_songs.js");
 var fs = require('fs');
 
 
@@ -127,9 +127,10 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 			//message.channel.send(tips);
 			message.channel.send(tips_ladder.embed);
           		 break;
-		case 'club':
-			var tips = fs.readFileSync("./source/tips_club.txt", {"encoding": "utf-8"});
-			message.channel.send(tips);
+		case 'songs':
+			//var tips = fs.readFileSync("./source/tips_club.txt", {"encoding": "utf-8"});
+			//message.channel.send(tips);
+				message.channel.send(tips_songs.embed);
           		 break;	
 		case 'roadshow':
 			var tips = fs.readFileSync("./source/tips_roadshow.txt", {"encoding": "utf-8"});
