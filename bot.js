@@ -127,6 +127,9 @@ client.on('message', async message => {
 		let cat = args[0];
 			  if(!cat)
    			   return message.reply("Choose first which tip you want to view :" + (categ));
+		let tip = args.slice(1).join(' ');
+			  if(tip.length > 256)
+   			   return message.reply("You're tip exceeded 256 character limit. Please rephrase ^^.");
 		if(!categ.some(word => message.content.toLowerCase().includes(word))) {
  			 message.reply("That category does not have any tips yet ^^'.");
 			 message.channel.send("Current Categories: " + (categ));
