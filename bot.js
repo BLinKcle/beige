@@ -118,8 +118,10 @@ const categ = ["ladder", "songs"];
 		let cat = args[0];
 			  if(!cat)
    			   return message.reply("Choose first which tip you want to view :" + (categ));
-		if(!categ.some(word => message.content.includes(word))) 
- 			return message.reply("That category does not have any tips yet ^^'. /n Current Categories: " + (categ));
+		if(!categ.some(word => message.content.includes(word))) {
+ 			 message.reply("That category does not have any tips yet ^^'.");
+			 message.channel.send("Current Categories: " + (categ));
+		}
 		switch(cat) {
           	  // !ping
           	  case 'ladder':
