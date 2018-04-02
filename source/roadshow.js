@@ -5,7 +5,6 @@ const Discord = require("discord.js");
 var embed = new Discord.RichEmbed()
   .setTitle("Roadshow")
   .setColor(3447003)
-  .setDescription("FAQ's about the Roadshow")
   .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/qcn745p.png")
   .setTimestamp()
@@ -13,14 +12,14 @@ var embed = new Discord.RichEmbed()
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Q: How often are the songs updated?",
-    "A: Once every 48 hours.  It is worth mentioning that the songs will contain Platinum-only songs, so non-Platinum members get to experience them too.", true);
+  .addField("Q: How do I unlock districts?",
+    "A: Every district have a required number of stars to unlock. Collect the stars by completing the missions assigned at each song.", true)
 /*
     .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /*
+  /* 
    * Blank field, useful to create some space..addBlankField(true)
    */
-
+;
 
 module.exports = Object.freeze({
   embed: {embed}
