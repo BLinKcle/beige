@@ -19,7 +19,7 @@ const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
 const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
-const tips_schedule = require("./source/tips_schedule.js");
+const tips_schedule = require("./source/tips_schedules.js");
 const categ = ["ladder", "songs","achievements","schedule"];
 
 client.on('ready', () => {
