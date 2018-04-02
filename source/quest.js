@@ -1,18 +1,17 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Club")
-  .setColor(3447003)
-  .setDescription("FAQ's about the Club")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
+  .setTitle("Ladder FAQ")
+  .setColor("97f7ff")
+  .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/60nlVAF.png")
-  .setTimestamp()
+
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Q: How often are the songs updated?",
-    "A: Once every 48 hours.  It is worth mentioning that the songs will contain Platinum-only songs, so non-Platinum members get to experience them too.", true);
+  .addField("Why can't I get over level 20 even if I played a lot and receive a lot of exps?",
+    "There is a level cap when you reach a certain level. You need to finish the tasks in main quest first before you can level up.", true);
 /*
     .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
   /*
