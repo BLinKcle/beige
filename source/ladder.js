@@ -5,12 +5,11 @@ const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setTitle("Ladder FAQ")
-  .setColor("fffb97")
-  .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
+  .setColor("97f7ff")
 
 .addField("Q: How often are the songs updated?", "A: Once every 48 hours. Song list may contain Platinum-only songs.", true)
 
-.addField("Q: During the song, I'm clearly leading. Yet in the results screen I lost. How?", "A: The status on the upper left corner is merely your score less the opponent's score based on taps (s perfect, perfect, great, etc) and card influence only.  Any score % bonuses are added in the final results screen.", true)
+.addField("Q: During the song, I'm clearly leading. Yet in the results screen I lost. How?", "A: The status on the upper left corner is merely your score less the opponent's score based on taps (s perfect, perfect, great, etc) and card influence.  Any score % bonuses are added in the final results screen.", true)
 
 .addField("Q: How do the placement rewards work?", "A: All players in the same medal receive the same reward, regardless of stars.", true)
 
@@ -18,9 +17,9 @@ var embed = new Discord.RichEmbed()
 
 .addField("Q: How is my opponent decided?", "A: Based on your current medal/placement.", true)
 
-.addField(" After reaching Champion Medal, what is the maximum number of stars a person can obtain?", "You can obtain up to 9999 stars, but the rewards do not change.", true)
+.addField("Q: After reaching Champion Medal, what is the maximum number of stars a person can obtain?", "A: You can obtain up to 9999 stars, but the rewards do not change.", true)
 
-.addField(" Is there an achievement associated with ladder?", "Not at this time.  We will add it later.", true)
+.addField("Q: Is there an achievement associated with ladder?", "A: Not at this time. We will add it later.", true)
 /*
    * Blank field, useful to create some space..addBlankField(true)
    */
