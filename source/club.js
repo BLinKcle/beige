@@ -4,8 +4,8 @@ var embed = new Discord.RichEmbed()
   .setTitle("Club")
   .setColor(3447003)
   .setDescription("FAQ's about the Club")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
-  .setThumbnail("https://i.imgur.com/gvid13v.png")
+  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/60nlVAF.png")
+  .setThumbnail("https://i.imgur.com/TgNMUlS.jpg")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
