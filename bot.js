@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var fs = require('fs');
 //modules
 const ladder = require("./source/ladder.js");
 const roadshow = require("./source/roadshow.js");
@@ -18,8 +19,8 @@ const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
 const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
-var fs = require('fs');
 
+const categ = ["ladder", "songs","achievements"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -37,7 +38,7 @@ client.on('message', async message => {
 		} 
 //prefix = ">"
   if(message.content.indexOf(process.env.prefix) !== 0) return;
-const categ = ["ladder", "songs"];
+
   const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   //faq's on ladder  
