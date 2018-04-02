@@ -19,7 +19,7 @@ var embed = new Discord.RichEmbed()
 .addField("A card adds 20% of its total individual influence for each note hit (rounded down) while it is active (for 5 sec), regardless for accuracy. For example, a level 30 rank 4 artist Jisoo card with an influence of 4140 will give +828 points per note hit while active.","by sekigan",true)
 
 
-.addField("The predicted requirement of getting S rank are not less than 85% combo or not more than 5% great or 2% good. For example, if a song full combo is 1000. You need to get min 850 combo, max. 50 great or 20 good.","Ricky_blink",true)
+//.addField("The predicted requirement of getting S rank are not less than 85% combo or not more than 5% great or 2% good. For example, if a song full combo is 1000. You need to get min 850 combo, max. 50 great or 20 good.","Ricky_blink",true)
 
 .addField("Combo checkpoints: 60, 120, 180, 360, 540, 720, 900, 1080, 1260, 1440, 1620, and so on. This can be a few notes off depending on how well you're playing. You may get that first checkpoint at 58 notes if you always get S-PERFECT.","by sekigan",true)
 
