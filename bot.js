@@ -17,7 +17,7 @@ const krunkdorm = require("./source/krunkdorm.js");
 const shop = require("./source/shop.js");
 const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
-const tips_songs = require("./source/tips_songs.js");
+//const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
 const tips_schedule = require("./source/tips_schedules.js");
 const tips_event = require("./source/tips_event.js");
@@ -25,9 +25,9 @@ const tips_nhr = require("./source/tips_nhr.js");
 const tips_roadshow = require("./source/tips_roadshow.js");
 const tips_management = require("./source/tips_management.js");
 const tips_quest = require("./source/tips_quest.js");
-const tips_general = require("./source/tips_general.js");
+//const tips_general = require("./source/tips_general.js");
 
-const categ = ["ladder", "songs","achievements","schedule","event","nhr", "roadshow","management","quest","general"];
+const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -141,9 +141,11 @@ client.on('message', async message => {
 			//message.channel.send(tips);
 			message.channel.send(tips_ladder.embed);
           		 break;
-		case 'songs':
+		/*case 'songs':
 				message.channel.send(tips_songs.embed);
-          		 break;	
+          	
+				break;
+				*/
 		case 'achievements':
 			message.channel.send(tips_achievements.embed);
           		 break;	
@@ -167,9 +169,10 @@ client.on('message', async message => {
 		case 'quest':
 			message.channel.send(tips_quest.embed);
           		 break;	
-		case 'general':
+		/*case 'general':
 			message.channel.send(tips_general.embed);
-          		 break;	
+          		 break;
+			 */
             // Just add any case commands if you want to..
      		   }
 
