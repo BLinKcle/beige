@@ -19,8 +19,8 @@ const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
 const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
-
-const categ = ["ladder", "songs","achievements"];
+const tips_schedule = require("./source/tips_schedule.js");
+const categ = ["ladder", "songs","achievements","schedule"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -136,6 +136,9 @@ client.on('message', async message => {
           		 break;	
 		case 'achievements':
 			message.channel.send(tips_achievements.embed);
+          		 break;	
+		case 'schedule':
+			message.channel.send(tips_schedule.embed);
           		 break;	
 		case 'ranking':
 			var tips = fs.readFileSync("./source/tips_ranking.txt", {"encoding": "utf-8"});
