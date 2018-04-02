@@ -22,7 +22,8 @@ const tips_achievements = require("./source/tips_achievements.js");
 const tips_schedule = require("./source/tips_schedules.js");
 const tips_event = require("./source/tips_event.js");
 const tips_nhr = require("./source/tips_nhr.js");
-const categ = ["ladder", "songs","achievements","schedule","event","nhr"];
+const tips_roadshow = require("./source/tips_roadshow.js");
+const categ = ["ladder", "songs","achievements","schedule","event","nhr", "roadshow"];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -148,9 +149,9 @@ client.on('message', async message => {
 		case 'nhr':
 			message.channel.send(tips_nhr.embed);
           		 break;	
-		case 'others':
-			var tips = fs.readFileSync("./source/tips_others.txt", {"encoding": "utf-8"});
-			message.channel.send(tips);
+				
+		case 'roadshow':
+			message.channel.send(tips_roadshow.embed);
           		 break;	
             // Just add any case commands if you want to..
      		   }
