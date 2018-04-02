@@ -11,7 +11,7 @@ var embed = new Discord.RichEmbed()
   
   
   .addField("In special rewards event, will I get 10 artist cards for the 680 diamond advanced contract folder?",
-    "Yes. Advanced Contract folder is the same as using 10 Advanced contract folder. In other words, you can choose still choose which artist you prefer.", true)
+    "Yes. Advanced Contract folder in the event is the same as using 10 Advanced contract folder in shop. In other words, you can choose still choose which artist you prefer.", true)
 
 
   
