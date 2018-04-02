@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setAuthor("BLinKcle,weiwei, Steve")
-  .color(3447003).setTitle("Ladder")
+  .setTitle("Ladder")
   .setColor(3447003)
   .setDescription("FAQ's about the Ladder")
   .setFooter("Source:https://www.taptap.com/topic/2666165","https://i.imgur.com/gvid13v.png")
