@@ -20,7 +20,7 @@ var embed = new Discord.RichEmbed()
 
 .addField("Q: After reaching Champion Medal, what is the maximum number of stars a person can obtain?", "A: You can obtain up to 9999 stars, but the rewards do not change.", true)
 
-.addField("Q: Is there an achievement associated with ladder?", "A: Not at this time. We will add it later.", true)
+.addField("Q: Is there an achievement associated with ladder?", "A: Not at this time.", true)
 /*
    * Blank field, useful to create some space..addBlankField(true)
    */
