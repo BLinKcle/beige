@@ -15,7 +15,8 @@ var embed = new Discord.RichEmbed()
 .addField("Although star notes do not count as a miss, missing too many can bring down your rank from an S-->A (for example), so make sure you get them regardless","by freeman",true)
 .addField("Although, it isn't easy to control, but for missing a note or two in the beginning or (near) end of a song can still give S-rank, while missing only one note in the middle of the song usually gives A-rank.","by Locya",true)
 
-
+//Help me with this, I don't know how I can rephrase this. Or if I should really add this. ^^'
+//.addField("In songs, cards always appear in the same order as they were shown in MANAGEMENT. A card is considered active when it is the card in front. A card can be active for 5 seconds then the card on its right follows.A card adds 20% of its total individual influence for each note hit (rounded down) while it is active, regardless for accuracy. For example, a level 30 rank 4 artist Jisoo card with an influence of 4140 will give +828 points per note hit while active.","by sekigan",true);
 
 
 .addField("The predicted requirement of getting S rank are not less than 85% combo or not more than 5% great or 2% good. For example, if a song full combo is 1000. You need to get min 850 combo, max. 50 great or 20 good. (If you have good artist cards, the % should be different (not tested)","Ricky_blink",true)
