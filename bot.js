@@ -162,14 +162,14 @@ const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
 	
 	if (command === "addtip"){
 	 	let cat = args[0];
-		   if(!cat)
-   			   return message.reply("Eyyy...Choose what category is the tip you want to view first.");
+//		   if(!cat)
+  // 			   return message.reply("Eyyy...Choose what category is the tip you want to view first.");
 		let tip = args.slice(1).join(' ');
 			  if(!tip)
    			   return message.reply("Ya! You forgot to include the tip!");
 	
-	if(!categ.some(word => message.content.includes(word))) 
- 		return message.reply("Category should be one of these:" + (categ));	
+//	if(!categ.some(word => message.content.includes(word))) 
+ //		return message.reply("Category should be one of these:" + (categ));	
 	 message.channel.send("Thanks! Your tip will be added after the mods read it. ^^");
   	 client.users.get(process.env.USER_NAME).send("Category:  "+ (cat));
 	 client.users.get(process.env.USER_NAME).send(" Tip: " + (tip) +" by " + (  message.author.username  ));
