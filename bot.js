@@ -36,7 +36,7 @@ client.on('message', async message => {
 		} 
 //prefix = ">"
   if(message.content.indexOf(process.env.prefix) !== 0) return;
-const categ = ["ladder", "club", "roadshow","ranking","krunk-dorm", "others"];
+const categ = ["ladder", "songs"];
   const args = message.content.slice(process.env.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   //faq's on ladder  
