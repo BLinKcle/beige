@@ -9,7 +9,7 @@ var embed = new Discord.RichEmbed()
 
 .addField("Be careful on those sensitive songs (specifically those fast songs). you would notice that the slider counts fast which means it is sensitive. you mostly get perfect rather than sperfect.", "by KrispyKim", true)
 
-.addField("be careful on those sliders in a sensitive songs. you might miss a note at the BEGINNING and END of the sliders.", "by KrispyKim", true)
+.addField("Be careful on those sliders in a sensitive songs. You might miss a note at the BEGINNING and END of the sliders.", "by KrispyKim", true)
 
 ;
 module.exports = Object.freeze({
