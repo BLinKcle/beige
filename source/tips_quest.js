@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Tips by users on events")
+  .setTitle("Tips by users on quests")
   .setColor("97f7ff")
 
 //.addField("Don't do the 'accumulate obtain 3 artists.' daily task. You could stock up 3 contracts for a gallery event rather than 1 contract. It is just a small amount of contracts but it is very helpful stocking up and have a LUCK.", "by KrispyKim", true)
