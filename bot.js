@@ -30,8 +30,9 @@ const tips_ranking = require("./source/tips_ranking.js");
 const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs","ranking"];
 
 client.on('ready', () => {
+	client.user.setGame('See #faq-project.');
     console.log('I am ready!');
-    client.user.setGame('See #faq-project.') 
+    
 });
 
 client.on('message', async message => {
