@@ -31,6 +31,7 @@ const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","man
 
 client.on('ready', () => {
     console.log('I am ready!');
+    client.user.setGame('See #faq-project.') 
 });
 
 client.on('message', async message => {
@@ -150,7 +151,7 @@ client.on('message', async message => {
 			message.channel.send(tips_schedule.embed);
 			var embed = new Discord.RichEmbed()
 				 .setColor("97f7ff")
-				.addField("by Ricky_blink", " Rewards of different types of schedule.(should be independent of card influence)_see picture below.", true)
+				.addField("by Ricky_blink", " Rewards of different types of schedule.(should be independent of card influence). See picture below.", true)
 				 .setImage("https://media.discordapp.net/attachments/430210328517804032/430662328212783115/2018-04-03_17h27_44.png");
           		message.channel.send({embed}); 
 				break;	
