@@ -148,6 +148,7 @@ client.on('message', async message => {
           		 break;	
 		case 'schedule':
 			message.channel.send(tips_schedule.embed);
+			message.channel.send(tips_schedule.data);
           		 break;	
 		case 'event':
 			message.channel.send(tips_event.embed);
