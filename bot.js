@@ -31,9 +31,7 @@ const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","man
 
 client.on('ready', () => {
 	//client.user.setPresence({ game: { name: '>h for help' }, status: 'idle' })
-	client.user.setActivity('YouTube', { type: 'WATCHING' })
-  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
-  .catch(console.error);
+    client.user.setActivity('YouTube', { type: 'WATCHING' })
     console.log('I am ready!');
     
 });
