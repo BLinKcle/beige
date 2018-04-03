@@ -23,6 +23,6 @@ module.exports = Object.freeze({
   embed: {embed}
 })
 module.exports = Object.freeze({
-  embed: {data}
+  data: {embed}
 })
 ;
