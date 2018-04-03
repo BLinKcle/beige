@@ -16,9 +16,7 @@ var embed = new Discord.RichEmbed()
 
 module.exports = Object.freeze({
   embed: {embed}
-})
-
-;
+});
 var data = new Discord.RichEmbed()
  .setColor("97f7ff")
 .addField("by Ricky_blink", " Rewards of different types of schedule.(should be independent of card influence)_see picture below.", true)
@@ -27,4 +25,4 @@ var data = new Discord.RichEmbed()
 ;
 module.exports = Object.freeze({
   embed: {data}
-})
+});
