@@ -148,11 +148,11 @@ client.on('message', async message => {
           		 break;	
 		case 'schedule':
 			message.channel.send(tips_schedule.embed);
-			var data = new Discord.RichEmbed()
+			var embed = new Discord.RichEmbed()
 				 .setColor("97f7ff")
 				.addField("by Ricky_blink", " Rewards of different types of schedule.(should be independent of card influence)_see picture below.", true)
 				 .setImage("https://media.discordapp.net/attachments/430210328517804032/430662328212783115/2018-04-03_17h27_44.png");
-          		message.channel.send({data}); 
+          		message.channel.send({embed}); 
 				break;	
 		case 'event':
 			message.channel.send(tips_event.embed);
