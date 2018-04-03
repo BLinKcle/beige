@@ -30,7 +30,7 @@ const tips_ranking = require("./source/tips_ranking.js");
 const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs","ranking"];
 
 client.on('ready', () => {
-	//client.user.setPresence({ game: { name: '>h for help' }, status: 'idle' })
+	client.user.setPresence({ status: 'online', game: { name: 'GAME' } });
     client.user.setActivity('YouTube', { type: 'WATCHING' })
     console.log('I am ready!');
     
