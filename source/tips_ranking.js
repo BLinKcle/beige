@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Tips by users on events")
+  .setTitle("Tips by users on ranking")
   .setColor("97f7ff")
 
 //.addField(".", "", true)
