@@ -37,12 +37,11 @@ client.on('message', async message => {
     //botception
      if(message.author.bot) return;
     const swearWords = ["darn", "fuck", "shit", "damn","dick","bitch","cunt","shag","pussy"];
-	if(swearWords.some(word => message.content.toLowerCase().includes(word))) {
+/*	if(swearWords.some(word => message.content.toLowerCase().includes(word))) {
 		 message.delete().catch(O_o=>{});
  		 message.reply("Oh no you said a bad word!!! I deleted it for ya.");
-		 
-  // Or just do message.delete();
-		} 
+
+		} */
 //prefix = ">"
   if(message.content.indexOf(process.env.prefix) !== 0) return;
 
@@ -179,14 +178,7 @@ client.on('message', async message => {
 
 	     
         }
-	if (command === "hi") {
-		var user = "<@!398297283831136256>" ;//Just assuming that's their user id.
-		var userID = user.replace(/[<@!>]/g, '');
-		var member = message.guild.member(userID);
-		    message.member.send("hi!");
-		
-		message.channel.send("Hi!");
-	}
+	
 	
 	if (command === "addtip"){
 	 	let cat = args[0];
