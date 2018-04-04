@@ -14,7 +14,7 @@ var embed = new Discord.RichEmbed()
 
 .addField("by KrispyKim:","There are times you got all combo but it seems you have missed some notes comparing to other players. Watch those sliders (beginning and end) and stars",true)
 
-.addField("by sekigan","Star notes don't need to be tapped on the first note. These notes will always give an S-PERFECT. In addition to that, missing star notes won't count as a miss.",true)
+.addField("by sekigan:","Star notes don't need to be tapped on the first note. These notes will always give an S-PERFECT. In addition to that, missing star notes won't count as a miss.",true)
 
 .addField("by freeman:","Although star notes do not count as a miss, missing too many can bring down your rank from an S->A (for example), so make sure you get them regardless",true)
 
