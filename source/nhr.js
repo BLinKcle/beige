@@ -2,9 +2,8 @@ const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setTitle("NHR")
-  .setColor(3447003)
-  .setDescription("FAQ's about the NHR")
-  .setFooter("Beat EVO YG FAQ's","https://imgur.com/gvid13v")
+  .setColor("97f7ff")
+  .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/cLVDpim.png")
   .setTimestamp()
   
