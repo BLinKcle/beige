@@ -1,7 +1,7 @@
  const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Management")
+  .setTitle("Event")
   .setColor("97f7ff")
   .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/GTtl8Kr.png")
@@ -18,7 +18,7 @@ var embed = new Discord.RichEmbed()
 .addField("Q: In Collect Artist Gallery event, I already have the cards required, do I need to get it again?","A: Yes, pictures of cards you got before the event are not counted. You will need to collect them again.",true)
 .addField("Q: In 9 grid event, does getting card on roadshow counts for sign 30 artist tasks?","A: Yes. Signing cards from shop and getting cards through roadshow count. Cards from mail or events doesn't.  ", true)  
 .addField("Q: In seal collection event, do I get more seals on higher district?","A: No. The number of seals depends on the length of the song. If you are a platinum member, you will get twice the normal number of seals given.",true)  
-  
+.addField("Q: Does events repeat?","Yes, events do repeat but no one knows when.",true)  
   
   ;
 
