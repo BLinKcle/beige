@@ -18,7 +18,7 @@ var embed = new Discord.RichEmbed()
    * Blank field, useful to create some space..addBlankField(true)
    */
 
-
+;
 module.exports = Object.freeze({
   embed: {embed}
 });
