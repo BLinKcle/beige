@@ -3,21 +3,16 @@ const Discord = require("discord.js");
 var embed = new Discord.RichEmbed()
   .setTitle("Ranking")
   .setColor(3447003)
-  .setDescription("FAQ's about the Ranking Challenge")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
+
   .setThumbnail("https://i.imgur.com/WeedNeG.png")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Q: How often are the songs updated?",
-    "A: Once every 48 hours.  It is worth mentioning that the songs will contain Platinum-only songs, so non-Platinum members get to experience them too.", true);
-/*
-    .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /*
-   * Blank field, useful to create some space..addBlankField(true)
-   */
+  .addField("Q: What will I get on ranking challenge?",
+    "A: Rank 1- 200 Dias+ 2% from Prize pool(2500 dias max), Rank 2- 150 Dias+ 1% from Prize pool(1250 dias Max), Rank 3 - 100 Dias + 0.8 % from Prize Pool(1000 Dias max), Rank 4-10 -50 dias+ 0.5% from Prize pool (625 dias max) , Rank 11-50- 35 dias + 0.08% from Prize pool (100 dias max) , Rank 51-100- 30 Dias + 0.05% from Prize pool(63 dias max),Top 20% -30 Dias,Top 40% - 22 Dias, Top 60% - 10 Dias, Top 80% -6 dias, Top 80%+ - 4 dias  ", true)
+.addField("Q: Is ranking challenge worth the diamonds?","Ranking challenge gives great diamond rewards for expert players.",true)
 
 
 module.exports = Object.freeze({
