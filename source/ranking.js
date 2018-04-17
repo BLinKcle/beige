@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-    .setTitle("Achievement FAQ")
+    .setTitle("Ranking FAQ")
   .setColor("97f7ff")
   .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/WeedNeG.png")
