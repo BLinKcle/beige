@@ -1,3 +1,4 @@
+
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
@@ -12,12 +13,13 @@ var embed = new Discord.RichEmbed()
   
   
   .addField("Q: Is there a card for the top 3 club during group birthdays/anniversary?",
-    "A: There is no card for group birthdays.", true);
-/*
-    .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /*
-   * Blank field, useful to create some space..addBlankField(true)
-   */
+    "A: There is no card for group birthdays.", true)
+.addField("Q: Does the image used in the reward for the top 3 supporting clubs, the gold cards, all the same?","Yes. The only difference is the rank of the card. Top 1,2,3 clubs get rank 3,2,1 artist card, respectively.",true)
+
+
+
+;
+
 
 
 module.exports = Object.freeze({
