@@ -14,13 +14,9 @@ var embed = new Discord.RichEmbed()
   
   .addField("Q: How do I unlock districts?",
     "A: Every district have a required number of stars to unlock. Collect the stars by completing the missions assigned at each song.", true)
-/*
-    .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /* 
-   * Blank field, useful to create some space..addBlankField(true)
-   */
+  .addField("Q: What is the easiest song on expert?","A:Some easy expert songs are:MTBD(2ne1), Airplane(iKon), Empty(WINNER),Zutter(BIGBANG), A-Yo(Jinusean), Falling in Love (2ne1), Ride(Taeyang), Empty Road(Taeyang), Fire(2ne1)",true)
 ;
 
 module.exports = Object.freeze({
   embed: {embed}
-});
+}) 
