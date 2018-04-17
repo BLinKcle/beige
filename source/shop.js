@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Shop")
-  .setColor(3447003)
+  .setTitle("Shop FAQ")
+  .setColor("97f7ff")
+  .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/DhkLaDB.png")
   .setTimestamp()
   
