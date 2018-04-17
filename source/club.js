@@ -11,8 +11,8 @@ var embed = new Discord.RichEmbed()
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Q: Is there a card for the top 3 club group birthdays in club?",
-    "A: There is no card for group birthdays, so far.", true);
+  .addField("Q: Is there a card for the top 3 club during group birthdays/anniversary?",
+    "A: There is no card for group birthdays.", true);
 /*
     .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
   /*
