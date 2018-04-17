@@ -3,8 +3,6 @@ const Discord = require("discord.js");
 var embed = new Discord.RichEmbed()
   .setTitle("Shop")
   .setColor(3447003)
-  .setDescription("FAQ's about the Shop")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/gvid13v.png")
   .setThumbnail("https://i.imgur.com/DhkLaDB.png")
   .setTimestamp()
   
@@ -12,14 +10,9 @@ var embed = new Discord.RichEmbed()
   
   
   .addField("Q: Which is better to buy? Gold or Platinum?",
-    "A: It is good to have both at the same time. However, if you only want to use one, gold membership is the better choice than platinum.", true);
-/*
-    .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
-  /*
-   * Blank field, useful to create some space..addBlankField(true)
-   */
-
-
+    "A: It is good to have both at the same time. However, if you only want to use one, gold membership is the better choice than platinum.", true)
+.addField("Q: How do I earn diamonds without buying the membership?","A: You can get diamonds through ladder, ranking challenge, fb codes, daily quests,attendance, and 9 grid events.  ",true)
+;
 module.exports = Object.freeze({
   embed: {embed}
 });
