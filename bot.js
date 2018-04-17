@@ -206,8 +206,6 @@ client.on('message', async message => {
 //	if(!categ.some(word => message.content.includes(word))) 
  //		return message.reply("Category should be one of these:" + (categ));	
 	 message.channel.send("Thanks! Your tip will be added after the mods read it. ^^");
-  	 client.users.get(process.env.USER_NAME).send("Category:  "+ (cat));
-	 client.users.get(process.env.USER_NAME).send(" Tip: " + (tip) +" by " + (  message.author.username  ));
 	client.channels.get(process.env.TIPS_CHANNEL).send("Category:  "+ (cat));
 	 client.channels.get(process.env.TIPS_CHANNEL).send(" Tip: " + (tip) +" by " + (  message.author.username  ));	
 		
