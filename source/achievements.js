@@ -12,7 +12,7 @@ var embed = new Discord.RichEmbed()
   
   .addField("Q: For NHR Achievement, what does the special character means ?",
     "A: It means that you have to all-combo all songs in expert level to get the achievement.", true)
-  .addField("Q: In Artist dorm Achievement, what does the special character means besides unlocking rooms?","After unlocking rooms, it's 'Purchase 10/50/100/500/1000 furniture items.'",true)
+  .addField("Q: In Artist dorm Achievement, what does the special character means besides unlocking rooms?","A: After unlocking rooms, it's 'Purchase 10/50/100/500/1000 furniture items.'",true)
 ;
 module.exports = Object.freeze({
   embed: {embed}
