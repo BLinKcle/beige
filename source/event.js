@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+ const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setTitle("Management")
@@ -16,7 +16,7 @@ var embed = new Discord.RichEmbed()
 .addField("Q: In seals event, what is the use of the non-artist card? ","A: It's an exp card equivalent to 1 star gold exp card, 1500exp.  ",true)
 .addField("Q: What is the best way to pull for LE event?","A: There is no best way as single pulls and 10 pulls have the same reward probability of 10%. However, there is a higher probability to get an artist card for 10 pulls rather than single pull.",true)
 .addField("Q: In Collect Artist Gallery event, I already have the cards required, do I need to get it again?","A: Yes, pictures of cards you got before the event are not counted. You will need to collect them again.",true)
-.addField("Q: In 9 grid event, does getting card counts for sign 30 artist tasks?","A: Yes. Signing cards from shop and getting cards through roadshow count. Cards from mail or event doesn't.  ", true)  
+.addField("Q: In 9 grid event, does getting card on roadshow counts for sign 30 artist tasks?","A: Yes. Signing cards from shop and getting cards through roadshow count. Cards from mail or events doesn't.  ", true)  
   
   
   
