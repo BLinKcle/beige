@@ -12,7 +12,7 @@ var embed = new Discord.RichEmbed()
   .addField("Q: Why are Minzy and Bom cards not in 2ne1 and Taehyun cards not in Winner?",
     "A: Minzy,Bom, and Taehyun are not part of YG anymore so BEYG have no right to use their pictures.", true)
   .addField("Q: Which card is the best to level up?","A: Unless you have a card that you want to really use, the best card to upgade is rank 1 trainee card if you want to save on m-coins and material. However, if you want to save on rank 5 cards, it is best to level up an artist card instead of trainee.",true)
-
+.addField("Q: Is it worth to promote Artist to Star?", "Yes. It gives a higher score in songs due to increase in influence and is required to get the gold badge in achievements.",true)
 
 
 
