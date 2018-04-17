@@ -2,10 +2,8 @@
 const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
-  .setTitle("Achievements")
-  .setColor(3447003)
-  .setDescription("FAQ's about Achievements")
-  .setFooter("Brought to you by: BlinKcle, weiwei, Steve","https://i.imgur.com/TgNMUlS.jpg")
+  .setTitle("Achievements FAQ")
+  .setColor("97f7ff")
   .setThumbnail("https://i.imgur.com/gvid13v.png")
   .setTimestamp()
   
