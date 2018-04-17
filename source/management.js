@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+  const Discord = require("discord.js");
 
 var embed = new Discord.RichEmbed()
   .setTitle("Management")
@@ -9,9 +9,9 @@ var embed = new Discord.RichEmbed()
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Why are Minzy and Bom cards not in 2ne1 and Taehyun cards not in Winner?",
-    "Minzy,Bom, and Taehyun are not part of YG anymore so BEYG have no right to use their pictures.", true)
-
+  .addField("Q: Why are Minzy and Bom cards not in 2ne1 and Taehyun cards not in Winner?",
+    "A: Minzy,Bom, and Taehyun are not part of YG anymore so BEYG have no right to use their pictures.", true)
+  .addField("Q: Which card is the best to level up?","A: Unless you have a card that you want to really use, the best card to upgade is rank 1 trainee card.",true)
 
 
 
