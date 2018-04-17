@@ -8,7 +8,7 @@ __You can use me like this:__
  >readtip [category] ==> Read the tips given by users according to category.
  >addtip [category] [tips] ==> Add tips you know to help other enjoy the game like you do! Tag according to category of the tip. It will not be added automatically, I will check it first. ^^'```
 
- __Under construction:__
+ __More FAQ's will be added as the time goes on__
 ```javascript
  >roadshow ==> FAQs about roadshow
  >nhr  ==> FAQs about NHR
