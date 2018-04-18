@@ -114,7 +114,7 @@ client.on('message', async message => {
      if(command === "say") {     
 	     //for mods and admin only
 	if(!message.member.roles.some(r=>["Admin", "Mods"].includes(r.name)))
-		return message.reply("Sorry, you don't have permissions to use this!");
+		return message.reply("sorry, you don't have permissions to use this!");
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     const sayMessage = args.join(" ");
@@ -129,10 +129,10 @@ client.on('message', async message => {
 	if (command === "readtip") {
 		let cat = args[0];
 			  if(!cat)
-   			   return message.reply("Choose first which tip you want to view :" + (categ));
+   			   return message.reply("please type one of the following categories after >readtip: " + (categ));
 		
 		if(!categ.some(word => message.content.toLowerCase().includes(word))) {
- 			 message.reply("That category does not have any tips yet ^^'.");
+ 			 message.reply("this category does not have any tips yet ^^'.");
 			 message.channel.send("Current Categories: " + (categ));
 		}
 		switch(cat) {
