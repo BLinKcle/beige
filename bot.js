@@ -114,7 +114,7 @@ client.on('message', async message => {
      if(command === "say") {     
 	     //for mods and admin only
 	if(!message.member.roles.some(r=>["Admin", "Mods"].includes(r.name)))
-		return message.reply("sorry, you don't have permissions to use this!");
+		return message.reply("Sorry, you don't have permissions to use this!");
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     const sayMessage = args.join(" ");
@@ -129,7 +129,7 @@ client.on('message', async message => {
 	if (command === "readtip") {
 		let cat = args[0];
 			  if(!cat)
-   			   return message.reply("please type one of the following categories after >readtip: " + (categ));
+   			   return message.reply("Please type one of the following categories after >readtip: " + (categ));
 		
 		if(!categ.some(word => message.content.toLowerCase().includes(word))) {
  			 message.reply("this category does not have any tips yet ^^'.");
@@ -199,13 +199,13 @@ client.on('message', async message => {
 			
 		let tip = args.slice(1).join(' ');
 			  if(!tip)
-   			   return message.reply("Ya! You forgot to include the tip!");
+   			   return message.reply("Ya! You forgot to include the tip (tip limit: max 256 characters)!");
 		  if(tip.length > 256)
-   			   return message.reply("You're tip exceeded 256 character limit. Please rephrase ^^.");
+   			   return message.reply("Your tip exceeded the 256 character limit. Please rephrase. ^^");
 	
 //	if(!categ.some(word => message.content.includes(word))) 
  //		return message.reply("Category should be one of these:" + (categ));	
-	 message.channel.send("Thanks! Your tip will be added after the mods read it. ^^");
+	 message.channel.send("Thanks! Your tip will be added after one of the mods have reviewed it. ^^");
 	client.channels.get(process.env.TIPS_CHANNEL).send("Category:  "+ (cat));
 	 client.channels.get(process.env.TIPS_CHANNEL).send(" Tip: " + (tip) +" by " + (  message.author.username  ));	
 		
