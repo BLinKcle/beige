@@ -200,8 +200,8 @@ client.on('message', async message => {
 		let tip = args.slice(1).join(' ');
 			  if(!tip)
    			   return message.reply("Ya! You forgot to include the tip (tip limit: max 256 characters)!");
-		  if(tip.length > 256)
-   			   return message.reply("Your tip exceeded the 256 character limit. Please rephrase. ^^");
+		  if(tip.length > 1000)
+   			   return message.reply("Your tip exceeded the character limit. Please rephrase. ^^");
 	
 //	if(!categ.some(word => message.content.includes(word))) 
  //		return message.reply("Category should be one of these:" + (categ));	
