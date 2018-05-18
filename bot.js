@@ -111,20 +111,20 @@ client.on('message', async message => {
           message.reply('hi~');
   	}
 //make beige talk
-     if(command === "say") {     
-	     //for mods and admin only
-	
-    // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
-    // To get the "message" itself we join the `args` back into a string with spaces: 
+     if(command === "talk") {   
+	     var pchan = "#"
+	     let say_channel = args[0];
+			  if(!(say_channel.slice[0])=="#");)
+   			   return message.reply("Please type the channel you wish to send the message to starting with #.");
+		
+  		const ptrim = message.content.slice(pchan.length).trim().split(/ +/g);
+ 		const SAY_CHANNEL = ptrim.shift().toLowerCase();
+	     
+	    message.channel.send("CHANNEL:" + (SAY_CHANNEL)); 
     const sayMessage = args.join(" ");
-	     var SAY_CHANNEL = "429474095227469855";
-	     client.channels.get(SAY_CHANNEL).send(sayMessage);
-    // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
-    message.delete().catch(O_o=>{}); 
-    // And we get the bot to say the thing: 
-//    message.channel.send(sayMessage);
-// for reading text         
-	     client.channels.find("name","general").send("Welcome!")
+	 //    var SAY_CHANNEL = "429474095227469855";
+	   //  client.channels.get(SAY_CHANNEL).send(sayMessage);   
+	     client.channels.find(SAY_CHANNEL).send("Welcome!")
          }
 	
 	
