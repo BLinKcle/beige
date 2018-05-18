@@ -124,7 +124,7 @@ client.on('message', async message => {
 	    message.channel.send("CHANNEL:" + (chan));
 	     message.channel.send("Message:" + (sayMessage)); 
 	 //    var SAY_CHANNEL = "429474095227469855";
-	     client.channels.get(SAY_CHANNEL).send(sayMessage);   
+	     client.channels.get(chan).send(sayMessage);   
 	  //   client.channels.find(chan).send(sayMessage);
       
 	    
