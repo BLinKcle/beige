@@ -111,22 +111,24 @@ client.on('message', async message => {
           message.reply('hi~');
   	}
 //make beige talk
-   /*  if(command === "talk") {   
-	     var pchan = "#"
-	     let say_channel = args[0];
+    if(command === "talk") {  
+	    let chan = args[0]; //channel name
+	    let sayMessage = args.slice(1).join(' ');
+		
+	    
+	  /*   let say_channel = args[0];
 			  if(!(say_channel.slice[0])=="#");)
    			   return message.reply("Please type the channel you wish to send the message to starting with #.");
-		
-  		const ptrim = message.content.slice(pchan.length).trim().split(/ +/g);
- 		const SAY_CHANNEL = ptrim.shift().toLowerCase();
+		  */
 	     
-	    message.channel.send("CHANNEL:" + (SAY_CHANNEL)); 
-    const sayMessage = args.join(" ");
+	//    message.channel.send("CHANNEL:" + (SAY_CHANNEL)); 
 	 //    var SAY_CHANNEL = "429474095227469855";
 	   //  client.channels.get(SAY_CHANNEL).send(sayMessage);   
-	     client.channels.find(SAY_CHANNEL).send("Welcome!")
-         }
-	*/
+	     client.channels.find(chan).send(sayMessage);
+      
+	    
+	}
+	
 	
 	if (command === "readtip") {
 		let cat = args[0];
