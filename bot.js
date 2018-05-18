@@ -123,7 +123,7 @@ client.on('message', async message => {
 	     
 
 	 //    var SAY_CHANNEL = "429474095227469855";
-	    client.channels.get(chan).send(sayMessage);   
+	//    client.channels.get(chan).send(sayMessage);   
 	    client.channels.find("name", chan).send(sayMessage);
       
 	    
