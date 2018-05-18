@@ -121,7 +121,8 @@ client.on('message', async message => {
    			   return message.reply("Please type the channel you wish to send the message to starting with #.");
 		  */
 	     
-	//    message.channel.send("CHANNEL:" + (SAY_CHANNEL)); 
+	    message.channel.send("CHANNEL:" + (chan));
+	     message.channel.send("Message:" + (sayMessage)); 
 	 //    var SAY_CHANNEL = "429474095227469855";
 	   //  client.channels.get(SAY_CHANNEL).send(sayMessage);   
 	     client.channels.find(chan).send(sayMessage);
