@@ -111,7 +111,7 @@ client.on('message', async message => {
           message.reply('hi~');
   	}
 //make beige talk
-     if(command === "talk") {   
+   /*  if(command === "talk") {   
 	     var pchan = "#"
 	     let say_channel = args[0];
 			  if(!(say_channel.slice[0])=="#");)
@@ -126,7 +126,7 @@ client.on('message', async message => {
 	   //  client.channels.get(SAY_CHANNEL).send(sayMessage);   
 	     client.channels.find(SAY_CHANNEL).send("Welcome!")
          }
-	
+	*/
 	
 	if (command === "readtip") {
 		let cat = args[0];
