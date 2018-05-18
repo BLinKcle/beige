@@ -115,7 +115,7 @@ client.on('message', async message => {
 	    let chan = args[0]; //channel name
 	    let sayMessage = args.slice(1).join(' ');
 		
-	    if(!message.member.user.username.some(r=>["BLinKcle#9906", "BLinKcle","Bess", ].includes(r.name)))
+	    if(!message.member.roles.some(r=>["Mods", "Admin","Bess", ].includes(r.name)))
 		return message.reply("Sorry, you don't have permissions to use this!");
 	  /*   let say_channel = args[0];
 			  if(!(say_channel.slice[0])=="#");)
