@@ -5,7 +5,7 @@ var embed = new Discord.RichEmbed()
   .setTitle("Achievement FAQ")
   .setColor("97f7ff")
   .setFooter("BeatEvo YG FAQ's","https://i.imgur.com/gvid13v.png")
-  .setThumbnail("https://imgur.com/M8m2GN2")
+  .setThumbnail("https://i.imgur.com/M8m2GN2.png?1")
   .setTimestamp()
   
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
