@@ -15,7 +15,7 @@ var embed = new Discord.RichEmbed()
 .addField("Q: Is it worth to promote Artist to Star?", "A: Yes. It gives a higher score in songs due to increase in influence and is required to get the gold badge in achievements.",true)
 .addField("Q: If I promote to trainee to artist, will the level reset?","A: No, the level stays the same. It will be rank 5 level 50 artist. You need to evolve it to get it to rank 6.", true)
 .addField("Q: How do I promote a traine to Artist?","A: To promote a card, you need 2 cards that have the same rank as your card which means you only need a level 1 rank 5 trainee card.",true)
-.addField("Q: Will the influence differ depending on the card I use to upgrade?","A: Yes, but it will only be true until rank 5 level 50. Afterwhich, all cards will have the same influence of the same level.",true)
+.addField("Q: Will the influence differ depending on the card I use to upgrade?","A: Yes it's true but only until you evolve the card. Once you evolve the card, it will set to the default influence for that rank and level.",true)
 .addField("Q: How do I bind to Guess account?","A: Login as Guest> Go to Settings>Go to User Center>Sign up (Will be your new X.D account)>Submit>All Done",true)
 
 
