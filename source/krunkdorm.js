@@ -10,7 +10,7 @@ var embed = new Discord.RichEmbed()
   //Add your questions here: Make sure there is a ; only at the end of the last .addField
   
   
-  .addField("Resources:",
+  .addField("See the following url for information about krunk-dorm:",
     "https://www.reddit.com/r/BeatEVOYG/comments/7meqh1/guide_krunk_dorm/", true);
 /*
     .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
