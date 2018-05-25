@@ -11,7 +11,13 @@ var embed = new Discord.RichEmbed()
   
   
   .addField("Q: Do I get more seals when I play on expert level?",
-    "A: Yes, the higher the level the more seals you will get on average. However, it also depends on your performance.", true);
+    "A: Yes, the higher the level the more seals you will get on average. However, it also depends on your performance.", true)
+
+.addField("Q: How much do I need to get Krunk-Seungri costume?","A: 4000 seals are needed to get Krunk-Seungri Costume. It will take about 2 months if you play the NHR everyday.",true)
+
+
+;
+
 /*
     .addField("Q: Can we pick the song(s) we want to play?", "A: No, the songs are pre-determined and one random song will be chosen for you from the song list.", true);
   /*
