@@ -13,7 +13,7 @@ var embed = new Discord.RichEmbed()
   .addField("Q: Which is better to buy? Gold or Platinum?",
     "A: It is good to have both at the same time. However, if you only want to use one, gold membership is the better choice than platinum.", true)
 .addField("Q: How do I earn diamonds without buying the membership?","A: You can get diamonds through ladder, ranking challenge, fb codes, daily quests,attendance, and 9 grid events.  ",true)
-.addField("Q: Are shop items at certain time same for everyone?","A: No, shop items are refreshed randomly every 4 hours.",true);
+.addField("Q: Are shop items at certain time same for everyone?","A: No, shop items are refreshed randomly every 4 hours.",true)
 
 
 ;
