@@ -28,7 +28,7 @@ const tips_management = require("./source/tips_management.js");
 const tips_quest = require("./source/tips_quest.js");
 const tips_general = require("./source/tips_general.js");
 const tips_ranking = require("./source/tips_ranking.js");
-const categ = ["ladder","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs","ranking"];
+const categ = ["ladder","shop","achievements","schedule","event","nhr", "roadshow","management","quest","general","songs","ranking"];
 
 client.on('ready', () => {
 	client.user.setPresence({ status: 'online',  game: { name: '#faq-project, >h for help', type: 0 }});
