@@ -17,7 +17,7 @@ const krunkdorm = require("./source/krunkdorm.js");
 const shop = require("./source/shop.js");
 const quest = require("./source/quest.js");
 const tips_ladder = require("./source/tips_ladder.js");
-//const tips_shop = require("./source/tips_shop.js");
+const tips_shop = require("./source/tips_shop.js");
 const tips_songs = require("./source/tips_songs.js");
 const tips_achievements = require("./source/tips_achievements.js");
 const tips_schedule = require("./source/tips_schedules.js");
@@ -186,10 +186,10 @@ client.on('message', async message => {
 		case 'ranking':
 			message.channel.send(tips_ranking.embed);
           		 break;
-		/*case 'shop':
+		case 'shop':
 			message.channel.send(tips_shop.embed);
           		 break;
-			 */
+			 
             // Just add any case commands if you want to..
      		   }
 
