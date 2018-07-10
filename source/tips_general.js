@@ -12,7 +12,7 @@ var embed = new Discord.RichEmbed()
 .addField("by KrispyKim:","If you're angry or stressed about the game (having some bugs or other issues), go to #bey-rant . Let your emotions come out about it",true)
 .addField("by sekigan:","When using a bluetooth headset, the wireless connection gives a delay on the music. Go to Settings then adjust the note speed to somewhere between +120 to +130ms.",true)
 .addField("by BLinKcle:","Read #resources in this channel for black screen problems, switching device problems and other useful tools and informations.",true)
-.addField("by BLinKcle:", "If you are new in the game, look for '?' placed everywhere in the game. This contains how-to's of the different parts of the game",true)
+.addField("by BLinKcle:", "If you are new in the game, look for '?' placed everywhere in the game. This contains how-to's of the different parts of the game.",true)
 ;
 module.exports = Object.freeze({
   embed: {embed}
