@@ -13,6 +13,7 @@ var embed = new Discord.RichEmbed()
 .addField("by KrispyKim:","Although you have other group that you stan, it is wise to upgrade those artist that would benefit in songs: Ladder, schedules, roadshow, specifically BB(GD and Taeyang)",true)
 .addField("by weiwei:","The game has a lock function, accessible through 'My Group' or 'All Star' tab. Select the card you want and click on the lock icon. This way you cannot accidentally use/sell the card.",true)
 .addField("by Locya:","If you have a lot of exp cards and are low on M-coins, you can sell 1 star exp card for 100 M-coins: go to management > all stars> YG (on the left) > scroll to the bottom and sell exp cards.",true)
+.addField("by jungtae_21:","Refrain from evolving max cards and only evolve them during 9-grid events. You need 5 evolutions to finish the requirement.",true)
 
 ;
 module.exports = Object.freeze({
