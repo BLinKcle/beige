@@ -17,8 +17,13 @@ var embed = new Discord.RichEmbed()
 .addField("Q: Will I lose all my point when I leave a club or get kicked?","The contributions you get to spend in club shop do not disappear (that stays with you no matter what). However, when you join a new club, your contribution display starts back at 0.",true)
 .addField("Q: Club Upgrading requirements?","A: See the following url: https://www.reddit.com/r/BeatEVOYG/comments/7joepi/club_upgrading_requirement/", true)
 .addField("Q: Do you get rewards after being kicked?", "A: No, only the members that are still a member of the club will get the rewards.", true)
+.addField("Q: How much can you get daily when donating upto the 9 times donation limit?", "A: You will get 2,775 contribution points. But if the birthday card is already open, you can donate as much as you want for 100 dias with 500 contribution points.")
 
-;
+          
+          
+          
+          
+          ;
 
 
 
