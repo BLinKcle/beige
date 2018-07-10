@@ -7,7 +7,7 @@ var embed = new Discord.RichEmbed()
 //.addField(".", "", true)
 
 .addField("by Locya:","Try playing the games first in training before playing in the ranking challenge. Unequip all your cards so you can compare them with the players in ranking.",true)
-
+.addField("by jungtae_21:","You can buy ranking Entrance only until three hours before the Round Time Left countdown ends. You still have three hours to finish all the remaining songs.",true)
 
 
 
