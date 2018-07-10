@@ -14,7 +14,7 @@ var embed = new Discord.RichEmbed()
 .addField("by Locya:"," Before the seals event begin, unlock all special events but don’t play the songs. When the event begin, you can accumulate more seals. :wink:",true)
 .addField("by Debby:"," If there's a Sign LE event but you only have 700<x<800 diamonds, don't worry! You can buy one by one up to 9 times. It will always be an artist card on the 8th pull. Is this a LE card? No, 100% uncertain, this depends on your luck. So, good luck!",true)
 .addField("by Louise:","For gallery event,avoid losing sleep due to waiting for the shop to refresh and have contracts. The shop refreshes every 4 hours. Plan your checking time wisely. ",true)
-
+.addField("by jungtae_21:","Refrain from evolving max cards and only evolve them during 9-grid events. You need 5 evolutions to finish the requirement.",true)
 
 ;
 module.exports = Object.freeze({
