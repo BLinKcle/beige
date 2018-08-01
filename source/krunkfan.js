@@ -1,3 +1,5 @@
+const Discord = require("discord.js");
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
